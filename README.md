@@ -11,25 +11,25 @@
 [![Build and Test](https://github.com/jagrosh/MusicBot/actions/workflows/build-and-test.yml/badge.svg)](https://github.com/jagrosh/MusicBot/actions/workflows/build-and-test.yml)
 [![CodeFactor](https://www.codefactor.io/repository/github/jagrosh/musicbot/badge)](https://www.codefactor.io/repository/github/jagrosh/musicbot)
 
-A cross-platform Discord music bot with a clean interface, and that is easy to set up and run yourself!
+Кроссплатформенный музыкальный бот Discord с понятным интерфейсом, который легко настроить и запустить самостоятельно!
 
 [![Setup](http://i.imgur.com/VvXYp5j.png)](https://jmusicbot.com/setup)
 
-## Features
-  * Easy to run (just make sure Java is installed, and run!)
-  * Fast loading of songs
-  * No external keys needed (besides a Discord Bot token)
-  * Smooth playback
-  * Server-specific setup for the "DJ" role that can moderate the music
-  * Clean and beautiful menus
-  * Supports many sites, including Youtube, Soundcloud, and more
-  * Supports many online radio/streams
-  * Supports local files
-  * Playlist support (both web/youtube, and local)
+## Особенности
+ * Простота запуска (просто убедитесь, что установлена Java, и запускайте!)
+ * Быстрая загрузка песен
+ * Не требуется никаких внешних ключей (кроме токена Discord-бота)
+ * Плавное воспроизведение
+ * Настройка для конкретного сервера роли "DJ", который может модерировать музыку
+ * Понятные и красивые меню
+ * Поддерживает множество сайтов, включая Youtube, Soundcloud и другие
+ * Поддерживает множество онлайн-радио / трансляций
+ * Поддерживает локальные файлы
+ * Поддерживает плейлист (как веб / youtube, так и локальный)
 
-## Supported sources and formats
-JMusicBot supports all sources and formats supported by [lavaplayer](https://github.com/sedmelluq/lavaplayer#supported-formats):
-### Sources
+## Поддерживаемые источники и форматы
+JMusicBot поддерживает все источники и форматы, поддерживаемые [lavaplayer](https://github.com/sedmelluq/lavaplayer#supported-formats):
+### Источники
   * YouTube
   * SoundCloud
   * Bandcamp
@@ -37,7 +37,7 @@ JMusicBot supports all sources and formats supported by [lavaplayer](https://git
   * Twitch streams
   * Local files
   * HTTP URLs
-### Formats
+### Форматы
   * MP3
   * FLAC
   * WAV
@@ -47,14 +47,14 @@ JMusicBot supports all sources and formats supported by [lavaplayer](https://git
   * AAC streams
   * Stream playlists (M3U and PLS)
 
-## Example
+## Пример
 ![Loading Example...](https://i.imgur.com/kVtTKvS.gif)
 
-## Setup
-Please see the [Setup Page](https://jmusicbot.com/setup) to run this bot yourself!
+## Настройка
+Пожалуйста, ознакомьтесь с [Setup Page](https://jmusicbot.com/setup) чтобы запустить этого бота самостоятельно!
 
-## Questions/Suggestions/Bug Reports
-**Please read the [Issues List](https://github.com/jagrosh/MusicBot/issues) before suggesting a feature**. If you have a question, need troubleshooting help, or want to brainstorm a new feature, please start a [Discussion](https://github.com/jagrosh/MusicBot/discussions). If you'd like to suggest a feature or report a reproducible bug, please open an [Issue](https://github.com/jagrosh/MusicBot/issues) on this repository. If you like this bot, be sure to add a star to the libraries that make this possible: [**JDA**](https://github.com/DV8FromTheWorld/JDA) and [**lavaplayer**](https://github.com/sedmelluq/lavaplayer)!
+## Вопросы /Предложения /Сообщения об ошибках
+**Пожалуйста, прочтите [Issues List](https://github.com/jagrosh/MusicBot/issues) прежде чем предлагать какую-либо функцию **. Если у вас есть вопросы, вам нужна помощь в устранении неполадок или вы хотите провести мозговой штурм новой функции, пожалуйста, запустите [Discussion](https://github.com/jagrosh/MusicBot/discussions). Если вы хотите предложить какую-либо функцию или сообщить о воспроизводимой ошибке, пожалуйста, откройте [Issue](https://github.com/jagrosh/MusicBot/issues) в этом репозитории. Если вам нравится этот бот, не забудьте отметить звездочкой библиотеки, которые делают это возможным: [**JDA**](https://github.com/DV8FromTheWorld/JDA) и [**lavaplayer**](https://github.com/sedmelluq/lavaplayer)!
 
-## Editing
-This bot (and the source code here) might not be easy to edit for inexperienced programmers. The main purpose of having the source public is to show the capabilities of the libraries, to allow others to understand how the bot works, and to allow those knowledgeable about java, JDA, and Discord bot development to contribute. There are many requirements and dependencies required to edit and compile it, and there will not be support provided for people looking to make changes on their own. Instead, consider making a feature request (see the above section). If you choose to make edits, please do so in accordance with the Apache 2.0 License.
+## Редактирование
+Возможно, неопытным программистам будет нелегко отредактировать этого бота (и приведенный здесь исходный код). Основная цель публикации исходного кода - продемонстрировать возможности библиотек, дать возможность другим пользователям понять, как работает бот, и дать возможность тем, кто разбирается в разработке ботов на java, JDA и Discord, внести свой вклад. Для его редактирования и компиляции требуется множество требований и зависимостей, и людям, которые хотят внести изменения самостоятельно, поддержка предоставлена не будет. Вместо этого рассмотрите возможность запроса новой функции (см. раздел выше). Если вы решите внести изменения, пожалуйста, делайте это в соответствии с лицензией Apache 2.0.
